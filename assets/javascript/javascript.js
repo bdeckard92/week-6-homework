@@ -39,8 +39,8 @@ var fails = ["Unicycle","Bicycle","Motorcycle","Offroad","Trampoline","Skateboar
 		gifGoHere.prepend(gifStill);
 
 
-		$("#rating-here").prepend(showRating);
-		$("#gifs-go-here").prepend(gifStill);
+		//$("#rating-here").prepend(showRating);
+		$("#gifs-go-here").prepend(showRating, gifStill);
 
 
 		}
