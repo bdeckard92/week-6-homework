@@ -11,7 +11,7 @@ var fails = ["Unicycle","Bicycle","Motorcycle","Offroad","Trampoline","Skateboar
 
 		
 
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         failType + "&api_key=dc6zaTOxFJmzC&limit=10&rating=pg-13";
 
        
