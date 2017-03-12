@@ -1,38 +1,30 @@
 <DOCTYPE html>
-<html>
-	<head>
-		<title>GIF Homework</title>
+    <html>
 
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		 <link rel="stylesheet" type="text/css" href="assets/style/week_6.css">
-	</head>
+    <head>
+        <title>GIF Homework</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/style/week_6.css">
+    </head>
 
-	<body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>	
- 	<script src="assets/javascript/javascript.js"></script>
-		
-		<h1 class="center-text" class="col-md-8 offset-sm-4">Fail GIF Fail!</h1>
-		<div id="buttons-view"></div>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="assets/javascript/javascript.js"></script>
+        <div id="display"></div>
+        <div class="container">
+            <h1 class="center-text" class="col-md-8 offset-4">Fail GIF Fail!</h1>
+            <div id="buttons-view"></div>
+            <div class="gifs col-md-8"></div>
+            <div class="form-group col-sm-4 offset-sm-8">
+                <label for="usr">Add a Fail!</label>
+                <input type="text" class="form-control" id="user">
+                <input type="submit" value="Submit" id="addFail">
+            </div>
+            <div id="rating-here">
+            </div>
+            <div id="gifs-go-here">
+            </div>
+        </div>
+    </body>
 
-		
-
-		<div id="display"></div>
-		<div class="container">
-			<div class="gifs col-md-8"></div>
-				<div class="form-group col-sm-4 offset-sm-8">
-  				<label for="usr">Add a Fail!</label>
- 				<input type="text" class="form-control" id="user">
- 				<input type="submit" value="Submit" id="addFail">
-				</div>
-			</div>
-
-			<div id= "rating-here">
-			</div>
-			<div id = "gifs-go-here">
-			</div>
-			
-
-			
-  
-		</body>
-</html>
+    </html>
